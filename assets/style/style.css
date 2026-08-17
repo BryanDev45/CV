@@ -1,0 +1,150 @@
+/*Fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway-Regular.woff") format("woff2");
+    src: url("../fonts/Raleway-Regular.ttf") format("truetype"),
+    url("../fonts/Raleway-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Raleway-italic";
+    src: url("../fonts/Raleway-Italic.woff") format("woff2");
+    src: url("../fonts/Raleway-Italic.ttf") format("truetype"),
+    url("../fonts/Raleway-Italic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Raleway-bold";
+    src: url("../fonts/Raleway-Bold.woff") format("woff2");
+    src: url("../fonts/Raleway-Bold.ttf") format("truetype"),
+    url("../fonts/Raleway-Bold.otf") format("opentype");
+}
+
+/*Généralités*/
+
+body{
+    font-family: 'Raleway', Arial;
+    background-color: #e3e3e3;
+    margin: 0%;
+    padding: 0%;
+}
+
+h1,h2,h3{
+    font-family: 'Lato', sans-serif;
+    margin: 2px;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+p{
+    margin: 4px;
+}
+
+ul{
+    margin: 0%;
+}
+
+li{
+    list-style-type: square;
+    
+}
+
+li::marker{
+    color: #17abb3;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.SizeIcon{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+#Centrage{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Header*/
+header{
+    background-color: #17abb3;
+    width: 1160px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.profil{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 5px white solid;
+    margin: 20px;
+}
+
+#CadreProfil{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 30%;
+}
+
+.white{
+    color: white;
+}
+
+#HeaderForm{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.HeaderDesc{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 70%;
+}
+
+.InfoDesc{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    align-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
