@@ -291,7 +291,7 @@ hr{
     margin-top: 0%;
 }
 
-#TextProfil{
+.TextProfil{
     text-align: justify;
     text-indent: 30px;
 }
